@@ -10,5 +10,5 @@ def power(base, power):
 			looper -= 1
 		for item in list:
 			answer= answer * base
-	print(answer)
+	return answer
 print(power(4,0))
