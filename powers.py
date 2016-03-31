@@ -11,5 +11,4 @@ def power(base, power):
 		for item in list:
 			answer= answer * base
 	print(answer)
-	
-power(4,0)
+print(power(4,0))
