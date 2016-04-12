@@ -1,14 +1,15 @@
-def power(base, power):
-	if power == 0:
-		answer = 1
-	else:
-		list = []
-		looper = power
-		answer = base
-		while looper != 1:
-			list.append("Value") 
-			looper -= 1
-		for item in list:
-			answer= answer * base
-	return answer
-print(power(4,0))
+def power(base, exponent):
+	if exponent != 0:
+		return int(base) * power(base, exponent - 1)
+	else:	
+		return 1
+		
+
+	
+	
+
+	
+
+
+	
+print(power(3,1))
